@@ -9,7 +9,7 @@ public class AdminController {
 	@RequestMapping("/main")
 	public String main() {
 		
-		
+		System.out.println("작업 완료성공");
 		
 		
 		return "main";
